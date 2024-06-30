@@ -1,0 +1,116 @@
+body {
+    background-color: blue;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(3, 3, 71), rgb(27, 54, 146));
+    align-content: center;
+}
+
+/* Section one styling */
+
+#section1 {
+    height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 20px 40px rgba(0, 0, 0, 0.2);
+    padding: 50px 30px;
+    align-content: center;
+    text-align: center;
+}
+
+#section1 > button {
+    float: none;
+}
+
+#section1 > img {
+    margin-bottom: 20px;
+}
+
+/* Section two styling */
+#section2 {
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 20px 40px rgba(0, 0, 0, 0.2);
+    padding: 50px 30px;
+    padding-top: 20px;
+    display: none;
+}
+
+.stats {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stats span {
+    font-weight: 600;
+}
+
+#quote {
+    text-align: justify;
+    margin: 20px 0 5px 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 17px;
+    outline: none;
+    color: black;
+    border: 1px groove black;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+button {
+    float: right;
+    margin-top: 5px;
+    background-color: rgb(53, 134, 209);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Result */
+.result {
+    margin-top: 10px;
+    display: none;
+}
+
+.result h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.wrapper {
+    flex-wrap: wrap !important;
+}
+
+.wrapper span {
+    font-weight: 600;
+}
+
+/* Colors Indication */
+
+.success {
+    color: #44b267;
+}
+
+.failed {
+    color: #e81c4e;
+}

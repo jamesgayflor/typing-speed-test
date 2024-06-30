@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon link -->
+     <link rel="shortcut icon" href="./typing_icon2.png" type="image/x-icon">
+
+    <!-- Website title -->
+    <title>Sheke's Typing Speed Test App</title>
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+
+        <section id="section1">
+            <img src="./typing_icon2.png" alt="typing icon">
+            <h3>Welcome to Sheke's Typing Test</h3>
+            <br>
+            <button class="btn btn-primary" id="begin-btn">Test your speed!</button>
+        </section>
+
+        <section id="section2"> 
+
+            <!--Top Info Section-->
+            <div class="stats">
+                <p>Time:
+                    <span id="timer">0s</span>
+                </p>
+                <p>Mistakes:
+                    <span id="mistakes">
+                        0
+                    </span>
+                </p>
+            </div>
+
+            <!-- Paragraph Section -->
+            <div id="quote" onmousedown="return false" onselect="return false">
+                
+            </div>
+
+            <hr>
+
+            <!-- User input section -->
+            <textarea rows="3" id="quote-input" placeholder="Type here when the test starts."></textarea>
+
+            <!-- Start button -->
+            <button id="start-test">
+                Start Test
+            </button>
+
+            <!-- Stop button -->
+            <button id="stop-test">
+                Stop Test
+            </button>
+
+            <!-- ResultSection -->
+            <div class="result">
+                <h3>Result</h3>
+                <div class="wrapper d-flex justify-content-around">
+                    <p>Accuracy: 
+                        <span id="accuracy">
+
+                        </span>
+                    </p>
+
+                    <p>WPM: 
+                        <span id="wpm">
+                            
+                        </span>
+                    </p>
+
+                    <p>Errors: 
+                        <span id="error">
+                            
+                        </span>
+                    </p>
+
+                    <p>CPM: 
+                        <span id="cpm">
+                            
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+        </section> <!--Top Info Section Closed-->
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
